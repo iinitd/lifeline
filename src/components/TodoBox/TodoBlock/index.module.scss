@@ -1,0 +1,22 @@
+.todoBlock {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+
+  & .tag {
+    padding: 2px 4px;
+    font-size: 8px;
+    background: #eee;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .checkedContent {
+    text-decoration: line-through;
+  }
+
+}
+
+.todoDDLBlock {
+  opacity: .4;
+}

@@ -1,0 +1,21 @@
+.noteBlock {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+
+  & .headline {
+    font-size: 22px;
+
+  }
+  
+  & .date {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  & .content {
+    font-size: 15px;
+  }
+  
+}
